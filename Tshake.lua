@@ -657,7 +657,7 @@ local Chek_Info = https.request('https://api.telegram.org/bot'..token..'/getChat
 local Json_Info = JSON.decode(Chek_Info)
 if Json_Info.ok == true then
 if Json_Info.result.status == "creator" then
-SendText(msg.chat_id_,msg.id_,'\n🚸┇ صلاحياته منشئ الكروب 🍃')   
+SendText(msg.chat_id_,msg.id_,'\n🚸┇ صلاحياته مشئ الكروب 🍃')   
 return false  end 
 if Json_Info.result.status == "member" then
 SendText(msg.chat_id_,msg.id_,'\n🚸┇ مجرد عضو هنا 🍃')   
