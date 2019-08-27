@@ -660,7 +660,7 @@ if Json_Info.result.status == "creator" then
 SendText(msg.chat_id_,msg.id_,'\n🚸┇ صلاحياته مشئ الكروب 🍃')   
 return false  end 
 if Json_Info.result.status == "member" then
-SendText(msg.chat_id_,msg.id_,'\n🚸┇ مجرد عضو هنا 🍃')   
+SendText(msg.chat_id_,msg.id_,'\n🚸┇ جرد عضو هنا 🍃')   
 return false  end
 if Json_Info.result.status == 'left' then
 SendText(msg.chat_id_,msg.id_,'\n🚸┇ الشخص غير موجود هنا 🍃')   
